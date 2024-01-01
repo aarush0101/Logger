@@ -1,0 +1,5 @@
+name: Logger
+version: 2.0.9
+main: Logger\Main
+authors: [aarush_01, fresherGAMING]
+api: 5.0.0
