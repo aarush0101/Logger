@@ -13,7 +13,8 @@ This is a PocketMine-MP(PM-5) plugin that logs player joins, leaves, and chat me
 - Logs player joins with a custom colored embed in Discord.
 - Logs player leaves with a custom colored embed in Discord.
 - Logs player chat messages with a custom colored embed in Discord.
-
+- Logs when the server has started
+- Logs when the server has shutdown.
 ## Installation
 
 1. Download the ZIP file from Github and extract it.
