@@ -1,6 +1,6 @@
 #### DON NOT REMOVE "0x" FROM THE COLOR CODES. PUT YOUR RGB COLOR CODE AFTER "0x" BUT DON'T REMOVE IT.
 # Change this to the webhook url you want to send the logs to.
-webhook: "https://discord.com/api/webhooks/1190572575210872902/ywG8GRa_aaJXXA4gaGheyt6aR9FWHOimKJMXfj-soqlKe0bJEtaEVjucpuKJZss8RZU8"
+webhook: "your_webhook_url"
 # Join embed color. Change it to any RGB color code you want the embed to be in.
 joins_color: 0x046307
 # Leave embed color. Change it to any RGB color code you want the embed to be in.
