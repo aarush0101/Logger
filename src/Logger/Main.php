@@ -34,20 +34,23 @@ class Main extends PluginBase implements Listener {
 
     public function onJoin(PlayerJoinEvent $event) {
         $player = $event->getPlayer();
-        $server = $player->getServer();
+        $servername = $player->getServer();
+        $server = $servername->getName();
         $this->discordHandler->sendToDiscord("joins", "[+] " . $player->getName(), $server);
     }
 
     public function onQuit(PlayerQuitEvent $event) {
         $player = $event->getPlayer();
-        $server = $player->getServer();
+        $servername = $player->getServer();
+        $server = $servername->getName();
         $this->discordHandler->sendToDiscord("leaves", "[-] " . $player->getName(), $server);
     }
 
     public function onChat(PlayerChatEvent $event) {
         $player = $event->getPlayer();
         $message = $event->getMessage();
-        $server = $player->getServer();
+        $servername = $player->getServer();
+        $server = $servername->getName();
         $formattedMessage = $player->getName() . ": " . $message;
         $this->discordHandler->sendToDiscord("chat", $formattedMessage, $server);
     }
