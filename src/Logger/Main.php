@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener {
         $config = yaml_parse_file($config_path);
         $webhookUrl = $config['webhook'];
         $this->discordHandler = new DiscordHandler($webhookUrl, $this);
-        $this->discordHandler->sendToDiscord2("on", "The server has started.")
+        $this->discordHandler->sendToDiscord2("on", "The server has started.");
         $this->getLogger()->info(TF::GREEN . "Logger plugin enabled!");
     }
 
